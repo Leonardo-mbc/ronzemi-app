@@ -1,2 +1,2 @@
-# Colors
-以前Railsで作成したLocal-SNSをNode.jsで開発中。
+# 論ゼミ用 投票アプリ
+node.js、express4
