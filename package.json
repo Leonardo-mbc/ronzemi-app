@@ -1,9 +1,9 @@
 {
-  "name": "session_tester",
-  "version": "0.0.0",
+  "name": "ronzemi",
+  "version": "1.0.3",
   "private": true,
   "scripts": {
-    "start": "NODE_ENV=production node ."
+    "start": "supervisor index.js"
   },
   "dependencies": {
     "body-parser": "^1.6.7",
