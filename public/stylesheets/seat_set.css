@@ -1,0 +1,40 @@
+span.button
+{
+	padding: 5px 6px 3px 6px;
+	position: absolute;
+	bottom: 20px;
+	z-index: 10;
+	display:none;
+}
+
+span.button.green
+{
+	box-shadow: 0px 0px 0px 3px rgba(70, 102, 41, 0.7) inset;
+	background-color: rgba(158, 255, 65, 0.7);
+	left: 30%;
+}
+
+span.button.red
+{
+	box-shadow: 0px 0px 0px 3px rgba(102, 41, 70, 0.7) inset;
+	background-color: rgba(255, 65, 158, 0.7);
+	right: 30%;
+}
+
+span.uuid
+{
+	font-size:small;
+}
+
+div.header
+{
+  position: absolute;
+  width: 100%;
+  top: 10px;
+  text-align: center;
+}
+
+span.head_title
+{
+  font-weight: bold;
+}

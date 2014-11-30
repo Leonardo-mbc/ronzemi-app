@@ -1,0 +1,96 @@
+a{ color:#294666;text-decoration:none;outline:none; }
+a:link{ color:#294666;outline:none; }
+a:visited{ color:#294666;outline:none; }
+a:hover{ color:#294666;outline:none; }
+a:active{ text-decoration:none;outline:none; }
+
+body
+{
+	text-align: center;
+	color: rgba(41, 70, 102, 1);
+	background-color: rgba(161, 194, 230, 0.8);
+}
+
+div.box
+{
+	color: white;
+	position: absolute;
+	box-shadow: 0px 0px 0px 3px rgba(41, 70, 102, 0.7) inset;
+	background-color: rgba(125, 151, 179, 0.8);
+	overflow: hidden
+	background-image: none;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+div.user
+{
+	width: 50px;
+	height: 38px;
+	box-shadow: 0px 0px 0px 3px rgba(41, 70, 102, 0.7) inset;
+	border-radius: 50px;
+	position: absolute;
+	text-align: center;
+	font-size: large;
+	background-color: rgba(65, 158, 255, 0.7);
+	padding-top: 12px;
+	cursor: pointer;
+}
+div.user.result
+{
+	box-shadow: 0px 0px 0px 3px rgba(102, 41, 70, 0.7) inset;
+	background-color: rgba(255, 65, 158, 0.7);
+	display: none;
+}
+div.user.status
+{
+	/*box-shadow: 0px 0px 0px 3px rgba(70, 102, 41, 0.7) inset;
+	background-color: rgba(158, 255, 65, 0.7);*/
+	box-shadow: 0px 0px 0px 3px gray inset;
+	background-color: lightgray;
+}
+div.user.online
+{
+	box-shadow: 0px 0px 0px 3px rgba(70, 102, 41, 0.7) inset;
+	background-color: rgba(158, 255, 65, 0.7);
+}
+div.user_online
+{
+	width: 50px;
+	height: 38px;
+	border-radius: 50px;
+	position: absolute;
+	text-align: center;
+	font-size: large;
+	padding-top: 12px;
+	cursor: pointer;
+	box-shadow: 0px 0px 0px 3px rgba(70, 102, 41, 0.7) inset;
+	background-color: rgba(158, 255, 65, 0.7);
+}
+
+span.submit
+{
+	color: white;
+	box-shadow: 0px 0px 0px 3px rgba(41, 70, 102, 0.7) inset;
+	background-color: rgba(65, 158, 255, 0.7);
+	padding: 10px;
+	text-align: center;
+	width: 50%;
+	cursor: pointer;
+}
+span.submit:Hover
+{
+	background-color: rgba(65, 158, 255, 1);
+}
+
+span.axis
+{
+	font-size: x-small;
+}
+
+div.axis_change
+{
+  position:absolute;
+  bottom: 10px;
+  width: 100%;
+}

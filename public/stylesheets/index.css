@@ -1,0 +1,109 @@
+body
+{
+	text-align: center;
+	color: rgba(41, 70, 102, 1);
+	background-color: rgba(161, 194, 230, 0.8);
+}
+
+div.box
+{
+	color: white;
+	position: absolute;
+	box-shadow: 0px 0px 0px 3px rgba(41, 70, 102, 0.7) inset;
+	background-color: rgba(125, 151, 179, 0.8);
+	overflow: hidden
+	background-image: none;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+div.user
+{
+	width: 50px;
+	height: 38px;
+	box-shadow: 0px 0px 0px 3px rgba(41, 70, 102, 0.7) inset;
+	border-radius: 50px;
+	position: absolute;
+	text-align: center;
+	font-size: large;
+	background-color: rgba(65, 158, 255, 0.7);
+	padding-top: 12px;
+	cursor: pointer;
+}
+div.user.result
+{
+	box-shadow: 0px 0px 0px 3px rgba(102, 41, 70, 0.7) inset;
+	background-color: rgba(255, 65, 158, 0.7);
+	display: none;
+}
+
+div.submit
+{
+	color: white;
+	position: absolute;
+	box-shadow: 0px 0px 0px 3px rgba(41, 70, 102, 0.7) inset;
+	background-color: rgba(65, 158, 255, 0.7);
+	padding: 8px 0px 8px 0px;
+	text-align: center;
+	width: 50%;
+	bottom: 10px;
+	left: 10px;
+	cursor: pointer;
+	z-index: 10;
+}
+
+div.rolling
+{
+	color: white;
+	position: absolute;
+	text-align: center;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	z-index: 10;
+}
+
+div.data_text
+{
+  width: 30%;
+  text-align: center;
+	box-shadow: 0px 0px 0px 3px rgba(41, 70, 102, 0.7) inset;
+	padding: 5px;
+	margin: 15px 0px 0px 35px;
+}
+div.data_text.x
+{
+	background-color: rgba(125, 151, 179, 0.8);
+}
+div.data_text.y
+{
+  background-color: rgba(125, 151, 179, 0.8);
+}
+
+span.submit:Hover
+{
+	background-color: rgba(65, 158, 255, 1);
+}
+
+span.axis
+{
+	font-size: x-small;
+}
+
+div.header
+{
+  position: absolute;
+  width: 100%;
+  top: 10px;
+  text-align: center;
+}
+
+span.head_title
+{
+  font-weight: bold;
+}
+
+span.uuid
+{
+	font-size:small;
+}

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "supervisor ."
+    "start": "NODE_ENV=production node ."
   },
   "dependencies": {
     "body-parser": "^1.6.7",
@@ -11,7 +11,10 @@
     "debug": "^1.0.4",
     "ect": "^0.5.9",
     "express": "^4.8.7",
+    "express-session": "^1.8.2",
+    "mongoose": "^3.8.16",
     "morgan": "^1.2.3",
+    "node-uuid": "^1.4.1",
     "serve-favicon": "^2.0.1",
     "socket.io": "^1.0.6"
   }

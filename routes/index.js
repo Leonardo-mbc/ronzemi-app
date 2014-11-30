@@ -1,7 +1,13 @@
+var user_size = 6;
+
 exports.root = function(req, res){
-	res.render('index', {title: 'Index'});
+	res.render('index', {user_size: user_size, my_seat: req.session.seat});
 }
 
-exports.express = function(req, res){
-	res.render('express', {title: 'Express'});
+exports.monitor = function(req, res){
+	res.render('monitor', {user_size: user_size, online_seats: req.session.online_seats});
+}
+
+exports.seat_set = function(req, res){
+	res.render('seat_set', {user_size: user_size, uuid: req.session.uuid});
 }
