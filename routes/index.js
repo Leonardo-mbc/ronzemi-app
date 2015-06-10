@@ -1,4 +1,4 @@
-var user_size = 6;
+var user_size = 10;
 
 exports.root = function(req, res){
 	res.render('index', {user_size: user_size, my_seat: req.session.seat});
